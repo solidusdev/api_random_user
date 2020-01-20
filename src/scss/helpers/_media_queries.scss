@@ -1,0 +1,205 @@
+$phone: "(max-width: 575.98px)";
+
+@media (max-width: 991.98px) {
+    
+    #random-user {
+
+        #main-container {
+           
+            header {
+            
+                h5 {
+                    font-size: 1.8rem;
+                }
+            }
+
+            #single-user-data {
+
+                .row {
+
+                    .column {
+
+                        h3 {
+                            font-size: 1.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 880.98px) {
+
+    #random-user {
+
+        #main-container {
+           
+            header {
+
+                h1 {
+                    font-size: 4rem;
+                }
+
+                h5 {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    
+    #random-user {
+
+        #main-container {
+           
+            header {
+
+                h1 {
+                    font-size: 3.8rem;
+                }
+            
+                h5 {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 740px) {
+    
+    #random-user {
+
+        #main-container {
+           
+            header {
+
+                h1 {
+                    font-size: 3.5rem;
+                }
+            
+                h5 {
+                    font-size: 1.5rem;
+                }
+            }
+
+            #single-user-data {
+
+                .row {
+                    
+                    .column {
+
+                        h3 {
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 683px) {
+
+    #random-user {
+        
+        width: 100vw !important;
+        overflow: hidden;
+
+        #background-images {
+            width: 130vw !important;
+        }
+
+        #main-container {
+            
+            width: 100%;
+            
+            header {
+                
+                h1 {
+                    font-size: 3.7rem;
+                    width: 100%;
+                }
+
+                h5 {
+                    font-size: 1.5rem;
+                    margin-top: 0.5rem;
+                }
+            }
+
+            #single-user-data {
+            
+                display: initial;
+
+                .row {
+                    
+                    display: initial;
+                    text-align: center;
+
+                    .column {
+
+                        padding-top: 1.8rem;
+                        
+                        h3 {
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media #{$phone} {
+
+    #random-user {
+        
+        width: 100vw !important;
+        overflow: hidden;
+
+        #background-images {
+            width: 130vw !important;
+        }
+
+        #main-container {
+            
+            width: 100%;
+            
+            header {
+                
+                h1 {
+                    font-size: 3.5rem;
+                    width: 100%;
+                }
+
+                h5 {
+                    font-size: 1.3rem;
+                    margin-top: 0.5rem;
+                }
+            }
+
+            #single-user-data {
+            
+                display: initial;
+
+                .row {
+                    
+                    display: initial;
+                    text-align: center;
+
+                    .column {
+
+                        padding-top: 1.8rem;
+                        
+                        h3 {
+                            font-size: 1.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
