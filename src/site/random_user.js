@@ -68,7 +68,7 @@ class RandomUser extends Component {
                     <div id="main-container">
 
                         <header>
-                            <h1>random user</h1>
+                            <h1>Randomizer</h1>
                             <h5>Like Lorem Ipsum, but for people.</h5>
                         </header>
                         
