@@ -89,7 +89,7 @@ class RandomUser extends Component {
                             
                         </section>
 
-                        <button onClick={this.changeUser}>generate</button>
+                        <button onClick={this.changeUser}>Generate</button>
                     
                     </div>
                 
